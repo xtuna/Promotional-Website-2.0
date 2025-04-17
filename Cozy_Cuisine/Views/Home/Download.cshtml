@@ -1,0 +1,205 @@
+﻿@model Cozy_Cuisine.ViewModels.DownloadPageVM
+@{
+    ViewData["Title"] = "Downloads";
+}
+
+<div class="cont3 container-fluid pt-5 my-5">
+    <div class="container p-5">
+        <div class="sectitle display-4 mb-3">
+            DOWNLOAD
+        </div>
+
+        <div class="row">
+            <!-- Large patch (latest patch) -->
+            <div class="col-lg-7">
+                <div class="newscont shadow rounded-4 overflow-hidden p-0 d-block text-decoration-none h-75">
+                    <div class="news-thumbnail position-relative">
+                        <iframe src="@GetDrivePreviewUrl(Model.LatestPatch.URLImageList)" class="newsimg img-fluid w-100"></iframe>
+                        <div class="newstxt p-5 text-start">
+                            <span>
+                                <a class="playnowbtn btn px-4 py-3 my-3" href="@Model.LatestPatch.GameURL">PLAY NOW</a>
+                            </span>
+                            <span class="ggtitle fs-6 d-block">@Model.LatestPatch.PatchName</span>
+                            <span class="ggtitle fs-6 d-block">@Model.LatestPatch.Version</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smaller patches -->
+            <div class="col-lg-4">
+                @foreach (var patch in Model.Patches)
+                {
+                    <a class="newscont shadow rounded-4 overflow-hidden p-0 d-block text-decoration-none mb-2" href="@patch.GameURL">
+                        <div class="news-thumbnail position-relative">
+                            <iframe src="@GetDrivePreviewUrl(patch.URLImageList)" class="newsimg img-fluid w-100"></iframe>
+                            <div class="newstxt p-3">
+                                <span class="ggtitle fs-6 d-block">@patch.PatchName</span>
+                                <span class="ggtitle fs-6 d-block">@patch.Version</span>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+
+            @* <div class="col-lg-7">
+                <div class="newscont shadow rounded-4 overflow-hidden p-0 d-block text-decoration-none h-75">
+                    <div class="news-thumbnail position-relative">
+                       @{ 
+                           var imageUrl = Model.LatestPatch.URLImageList?.Split(',').FirstOrDefault();
+                           var imgFileId = "";
+
+                           
+                            var parts = imageUrl.Split('/');
+                            if (parts.Length >= 6)
+                            {
+                                imgFileId = parts[5];
+                            }
+                        
+
+                        var previewImgUrl = $"https://drive.google.com/file/d/{imgFileId}/preview";
+                        }
+                        <iframe src="@previewImgUrl" alt="News image" class="newsimg img-fluid w-100"></iframe>
+                        <div class="newstxt p-5 text-start">
+                            <span>
+                                <a type="button" class="playnowbtn btn px-4 py-3 my-3" href="@Model.LatestPatch.GameURL">PLAY NOW</a>
+                            </span>
+                            <span class="ggtitle fs-6 d-block">@Model.LatestPatch.PatchName </span>
+                            <span class="ggtitle fs-6 d-block">@Model.LatestPatch.Version </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smaller patches -->
+            <div class="col-lg-4">
+                @foreach (var patch in Model.Patches)
+                {
+                    var patchimageUrl = patch.URLImageList?.Split(',').FirstOrDefault();
+                    var patchimgFileId = "";
+
+
+                    var patchparts = patchimageUrl.Split('/');
+                        if (patchparts.Length >= 6)
+                        {
+                        patchimgFileId = parts[5];
+                           
+                        }
+
+                    var patchpreviewImgUrl = $"https://drive.google.com/file/d/{patchimgFileId}/preview";
+                    <a class="newscont shadow rounded-4 overflow-hidden p-0 d-block text-decoration-none mb-2" href="@patch.GameURL">
+                        <div class="news-thumbnail position-relative">
+                            <iframe src="@patchpreviewImgUrl" alt="News image" class="newsimg img-fluid w-100" ></iframe>
+                            <div class="newstxt p-3">
+                                <span class="ggtitle fs-6 d-block">@patch.PatchName</span>
+                                <span class="ggtitle fs-6 d-block">@patch.Version</span>
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div> *@
+        </div>
+        
+    </div>
+</div>
+
+<div class="cont2 container-fluid mb-5">
+    <div class="container p-5">
+        <div class="sectitle display-4 mb-5">
+            REVIEWS
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-3 d-flex mb-2">
+                <div class="review-card w-100">
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="avatar me-3">
+                            <img src="~/img/meow.png" class="img-fluid" alt="Avatar" />
+                        </div>
+                        <div>
+                            <div class="stars mb-1">
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-regular fa-star fa-sm"></i>
+                            </div>
+                            <div class="review-tag">Cozy and Addictive!</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        Super chill! I love crafting meals and customizing my kiosk.
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-lg-3 d-flex mb-2">
+                <div class="review-card w-100">
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="avatar me-3">
+                            <img src="~/img/meow.png" class="img-fluid" alt="Avatar" />
+                        </div>
+                        <div>
+                            <div class="stars mb-1">
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                            </div>
+                            <div class="review-tag">Fun Gameplay with Charming Characters!</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        A cozy little game that makes you feel productive while relaxing.
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-lg-3 d-flex mb-2">
+                <div class="review-card w-100">
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="avatar me-3">
+                            <img src="~/img/meow.png" class="img-fluid" alt="Avatar" />
+                        </div>
+                        <div>
+                            <div class="stars mb-1">
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star fa-sm"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                            </div>
+                            <div class="review-tag">Perfect for Casual Gamers!</div>
+                        </div>
+                    </div>
+                    <div class="review-text">
+                        Simple but addicting—my NPC customers are adorable!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    @functions {
+    public string GetDrivePreviewUrl(string url)
+    {
+        if (string.IsNullOrEmpty(url)) return string.Empty;
+
+        var firstUrl = url.Split(',').FirstOrDefault();
+        var parts = firstUrl?.Split('/');
+        if (parts != null && parts.Length >= 6)
+        {
+            return $"https://drive.google.com/file/d/{parts[5]}/preview";
+        }
+
+        return string.Empty;
+    }
+}
+
+}

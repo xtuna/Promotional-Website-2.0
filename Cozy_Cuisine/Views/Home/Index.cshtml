@@ -1,0 +1,265 @@
+﻿@model Cozy_Cuisine.ViewModels.IndexPageVM
+@{
+    ViewData["Title"] = "Home";
+
+    var meals = Model.GameItems.Where(i => i.Category == "Meals").ToList();
+    var ingredients = Model.GameItems.Where(i => i.Category == "Ingredients").ToList();
+    var equipments = Model.GameItems.Where(i => i.Category == "Equipments").ToList();
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    // Google Drive folders IDs - these were already correct in your code
+    var mealsFolder = "1cXz92_D91-oLg2af9dVHn6OJraAFSAvE";
+    var ingredientsFolder = "1JYfC0KqXe6_I5eHDc1TH4UBTR1lBGHl-";
+    var equipmentsFolder = "1ZvCzzCqOQ2z_V6mg6H_rE9TMKGVmVpCO";
+
+    // Parent folders
+    var gameItemsFolder = "1pE-jUHgPBRqgtF0WTAaxwsZ9GIOgvsyo";
+    var foodFolder = "1dp55ZlVjomIynS5kYO05XRLSrq5VwVBb";
+
+    // Default image (gathering.png)
+    var defaultMealImage = "1lHsZqFXcsX_sS82myedutUgUDYTiD3OG";
+}
+
+<!-- Floating foods background -->
+<div class="floating-foods">
+    <img src="/img/tomato.png" class="floating-food" alt="tomato" style="top: 10%; left: 15%;">
+    <img src="/img/onion.png" class="floating-food" alt="onion" style="top: 25%; left: 8%;">
+    <img src="/img/chili.png" class="floating-food" alt="chili" style="top: 10%; left: 22%;">
+    <img src="/img/chicken.png" class="floating-food" alt="chicken" style="top: 6%; right: 12%;">
+    <img src="/img/cake.png" class="floating-food" alt="cake" style="top: 5%; left: 15%;">
+    <img src="/img/meat.png" class="floating-food" alt="meat" style="top: 15%; right: 18%;">
+    <img src="/img/mushroom.png" class="floating-food" alt="mushroom" style="top: 30%; right: 12%;">
+    <img src="/img/sitaw.png" class="floating-food" alt="sitaw" style="top: 8%; left: 8%;">
+    <img src="/img/sampaloc.png" class="floating-food" alt="sampaloc" style="top: 12%; right: 18%;">
+</div>
+
+<div class="cont1 container-fluid">
+    <div class="container p-5">
+        <div class="pwrow row">
+            <div class="pw col-lg-7 rounded-3 px-4 py-5">
+                <div class="pw1 fs-1">
+                    Cozy Cuisine
+                </div>
+                <div class="pw2 fs-2">
+                    Your Cozy Kiosk Awaits!
+                </div>
+                <div class="pwbtncont mt-3">
+                    <a href="#" class="pwbtn btn btn-lg btn-link fs-3">PLAY NOW</a>
+                    <a href="#" class="pwbtn btn btn-lg btn-link fs-3">WATCH TRAILER</a>
+                </div>
+            </div>
+            <div class="col-lg-4 rounded-3 text-center">
+                <div>
+                    <img src="~/img/meow.png" class="img-fluid meowww" alt="Meow Image" />
+                </div>
+                <div class="pwdl rounded-3">
+                    <div class="display-2">1200+</div>
+                    <div class="display-5">Downloads</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="~/img/bgbgbg.jpg" class="cont1-bg img-fluid" alt="Background Image" />
+</div>
+
+<!--how-->
+<div class="cont2 container-fluid p-5">
+    <div class="container">
+        <div class="sectitle display-4 mb-3">
+            HOW TO PLAY
+        </div>
+
+        <!-- Modified Layout for Step Content Area -->
+        <div class="row" id="stepContentArea">
+            <!-- Left side - Fixed size image -->
+            <div class="col-lg-6">
+                <div class="step-image-container">
+                    <img src="/img/howpic.jpg" class="img-fluid rounded-3" id="stepImage" alt="Step Image">
+                </div>
+            </div>
+
+            <!-- Right side - Text and thumbnails -->
+            <div class="col-lg-6">
+                <div class="steptxt m-auto">
+                    <div class="steptitle fs-3 p-3 rounded-3 d-block mt-3" id="stepTitle">
+                        Step 1: Purchase Ingredients
+                    </div>
+                    <div class="stepdesc p-3 rounded-3 mt-3 fs-3" id="stepDescription">
+                        Head to CozyMart and buy fresh ingredients to stock up for the day.
+                    </div>
+                </div>
+
+                <!-- Step Thumbnails moved below the description -->
+                <div class="step-thumbnails-container mt-4">
+                    <div class="step-thumbnails d-flex flex-wrap">
+                        <!-- Step 1 -->
+                        <div class="step-thumb mx-2 mb-3 active" data-step="1" data-title="Step 1: Purchase Ingredients" data-desc="Head to CozyMart and buy fresh ingredients to stock up for the day." data-img="/img/howpic.jpg">
+                            <img src="/img/howpic.jpg" class="img-fluid rounded-3 step-thumb-img" alt="Step 1">
+                            <div class="step-number">1</div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="step-thumb mx-2 mb-3" data-step="2" data-title="Step 2: Prep the Kitchen" data-desc="Return to your kitchen to start preparing your delicious meals." data-img="/img/preping.png">
+                            <img src="/img/preping.png" class="img-fluid rounded-3 step-thumb-img" alt="Step 2">
+                            <div class="step-number">2</div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="step-thumb mx-2 mb-3" data-step="3" data-title="Step 3: Choose a Recipe" data-desc="Open the cookbook and select a tasty dish to prepare." data-img="/img/howpic.jpg">
+                            <img src="/img/howpic.jpg" class="img-fluid rounded-3 step-thumb-img" alt="Step 3">
+                            <div class="step-number">3</div>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="step-thumb mx-2 mb-3" data-step="4" data-title="Step 4: Start Cooking" data-desc="Combine your ingredients and start cooking when ready!" data-img="/img/howpic.jpg">
+                            <img src="/img/howpic.jpg" class="img-fluid rounded-3 step-thumb-img" alt="Step 4">
+                            <div class="step-number">4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- game-items -->
+<div class="cont3 container-fluid p-4">
+    <div class="container">
+        <h1 class="sectitle">GAME ITEMS</h1>
+            
+            <div class="game-items-container">
+                <!-- Left side - Items browser -->
+                <div class="game-sidebar">
+                    <!-- Tabs navigation -->
+                    <div class="game-tabs">
+                        <button class="game-tab active" data-tab="foodTab">Food</button>
+                        <button class="game-tab" data-tab="thingsTab">Things</button>
+                    </div>
+                    
+                    <!-- Food Tab Content -->
+                    <div class="game-tab-content active" id="foodTab">
+                        <!-- Meals Category -->
+                        <div class="item-category">
+                            <div class="item-category-title">Meals</div>
+                            <div class="items-grid">
+                                <!-- Row 1 -->
+                                <div class="item-tile" data-name="Bulalo" data-desc="Bulalo is a beef dish" data-img="meal1.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 1">
+                                </div>
+                                <div class="item-tile" data-name="Ramen" data-desc="A Japanese noodle soup" data-img="meal2.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 2">
+                                </div>
+                                <div class="item-tile" data-name="Pizza" data-desc="Italian dish with toppings" data-img="meal3.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 3">
+                                </div>
+                                <div class="item-tile" data-name="Sushi" data-desc="Japanese rice dish" data-img="meal4.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 4">
+                                </div>
+                                <div class="item-tile" data-name="Burger" data-desc="Sandwich with patty" data-img="meal5.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 5">
+                                </div>
+                                
+                                <!-- Row 2 -->
+                                <div class="item-tile" data-name="Pasta" data-desc="Italian noodle dish" data-img="meal6.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 6">
+                                </div>
+                                <div class="item-tile" data-name="Curry" data-desc="Spicy sauce with meat" data-img="meal7.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 7">
+                                </div>
+                                <div class="item-tile" data-name="Steak" data-desc="Grilled beef cut" data-img="meal8.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 8">
+                                </div>
+                                <div class="item-tile" data-name="Salad" data-desc="Fresh vegetable mix" data-img="meal9.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 9">
+                                </div>
+                                <div class="item-tile" data-name="Soup" data-desc="Hot liquid food" data-img="meal10.png">
+                                    <img src="/api/placeholder/64/64" class="item-img" alt="Meal 10">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Ingredients Category -->
+                        <div class="item-category">
+                            <div class="item-category-title">Ingredients</div>
+                            <div class="items-grid">
+                                <!-- Empty ingredient slots -->
+                                <div class="item-tile" data-name="Tomato" data-desc="Red fruit used as vegetable" data-img="ing1.png">
+                                </div>
+                                <div class="item-tile" data-name="Onion" data-desc="Layered vegetable" data-img="ing2.png">
+                                </div>
+                                <div class="item-tile" data-name="Carrot" data-desc="Orange root vegetable" data-img="ing3.png">
+                                </div>
+                                <div class="item-tile" data-name="Garlic" data-desc="Aromatic bulb" data-img="ing4.png">
+                                </div>
+                                <div class="item-tile" data-name="Beef" data-desc="Red meat from cattle" data-img="ing5.png">
+                                </div>
+                                
+                                <!-- Row 2 -->
+                                <div class="item-tile" data-name="Chicken" data-desc="Poultry meat" data-img="ing6.png">
+                                </div>
+                                <div class="item-tile" data-name="Rice" data-desc="White grain staple" data-img="ing7.png">
+                                </div>
+                                <div class="item-tile" data-name="Flour" data-desc="Powder for baking" data-img="ing8.png">
+                                </div>
+                                <div class="item-tile" data-name="Salt" data-desc="Basic seasoning" data-img="ing9.png">
+                                </div>
+                                <div class="item-tile" data-name="Pepper" data-desc="Spicy seasoning" data-img="ing10.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Things Tab Content -->
+                    <div class="game-tab-content" id="thingsTab">
+                        <div class="item-category">
+                            <div class="item-category-title">Equipments</div>
+                            <div class="items-grid">
+                                <!-- Empty equipment slots -->
+                                <div class="item-tile" data-name="Pan" data-desc="For frying foods" data-img="equip1.png">
+                                </div>
+                                <div class="item-tile" data-name="Pot" data-desc="For boiling and stewing" data-img="equip2.png">
+                                </div>
+                                <div class="item-tile" data-name="Knife" data-desc="For cutting ingredients" data-img="equip3.png">
+                                </div>
+                                <div class="item-tile" data-name="Spoon" data-desc="For stirring and serving" data-img="equip4.png">
+                                </div>
+                                <div class="item-tile" data-name="Oven" data-desc="For baking and roasting" data-img="equip5.png">
+                                </div>
+                                
+                                <!-- Row 2 -->
+                                <div class="item-tile" data-name="Blender" data-desc="For mixing ingredients" data-img="equip6.png">
+                                </div>
+                                <div class="item-tile" data-name="Cutting Board" data-desc="Surface for chopping" data-img="equip7.png">
+                                </div>
+                                <div class="item-tile" data-name="Measuring Cup" data-desc="For precise portions" data-img="equip8.png">
+                                </div>
+                                <div class="item-tile" data-name="Whisk" data-desc="For beating ingredients" data-img="equip9.png">
+                                </div>
+                                <div class="item-tile" data-name="Spatula" data-desc="For flipping foods" data-img="equip10.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right side - Item details -->
+                <div class="item-details">
+                    <div class="item-detail-image">
+                        <img id="selected-item-img" src="/api/placeholder/128/128" alt="Selected Item">
+                    </div>
+                    <div class="item-detail-desc" id="selected-item-desc">
+                        Select an item to see details
+                    </div>
+                    <div class="item-detail-name" id="selected-item-name">
+                        Item Name
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/all.js"></script>
+}
