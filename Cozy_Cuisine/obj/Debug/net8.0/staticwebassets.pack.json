@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Cozy_Cuisine.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Cozy_Cuisine.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\css\\admin_layout.css",
+      "PackagePath": "staticwebassets\\css\\admin_layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\css\\promo.css",
+      "PackagePath": "staticwebassets\\css\\promo.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\Hills Free (update 3.0).png",
+      "PackagePath": "staticwebassets\\img\\Hills Free (update 3.0).png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\Website_Under_Construction.png",
+      "PackagePath": "staticwebassets\\img\\Website_Under_Construction.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\bgbgbg.jpg",
+      "PackagePath": "staticwebassets\\img\\bgbgbg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\cake.png",
+      "PackagePath": "staticwebassets\\img\\cake.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\chicken.png",
+      "PackagePath": "staticwebassets\\img\\chicken.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\chili.png",
+      "PackagePath": "staticwebassets\\img\\chili.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\closing.png",
+      "PackagePath": "staticwebassets\\img\\closing.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\frontdoor.png",
+      "PackagePath": "staticwebassets\\img\\frontdoor.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\fudsamp.png",
+      "PackagePath": "staticwebassets\\img\\fudsamp.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\howpic.jpg",
+      "PackagePath": "staticwebassets\\img\\howpic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\meat.png",
+      "PackagePath": "staticwebassets\\img\\meat.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\meow.png",
+      "PackagePath": "staticwebassets\\img\\meow.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\mushroom.png",
+      "PackagePath": "staticwebassets\\img\\mushroom.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\onion.png",
+      "PackagePath": "staticwebassets\\img\\onion.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\opening.png",
+      "PackagePath": "staticwebassets\\img\\opening.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\preping.png",
+      "PackagePath": "staticwebassets\\img\\preping.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\sampaloc.png",
+      "PackagePath": "staticwebassets\\img\\sampaloc.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\sample-placeholder.jpg",
+      "PackagePath": "staticwebassets\\img\\sample-placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\sample1.png",
+      "PackagePath": "staticwebassets\\img\\sample1.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\sample2.png",
+      "PackagePath": "staticwebassets\\img\\sample2.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\sitaw.png",
+      "PackagePath": "staticwebassets\\img\\sitaw.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\img\\tomato.png",
+      "PackagePath": "staticwebassets\\img\\tomato.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\js\\all.js",
+      "PackagePath": "staticwebassets\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\js\\carousel-init.js",
+      "PackagePath": "staticwebassets\\js\\carousel-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\js\\stepbystep.js",
+      "PackagePath": "staticwebassets\\js\\stepbystep.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Cozy_Cuisine\\Cozy_Cuisine\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Cozy_Cuisine.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Cozy_Cuisine.props",
+      "PackagePath": "build\\Cozy_Cuisine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Cozy_Cuisine.props",
+      "PackagePath": "buildMultiTargeting\\Cozy_Cuisine.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Cozy_Cuisine.props",
+      "PackagePath": "buildTransitive\\Cozy_Cuisine.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
